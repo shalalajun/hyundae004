@@ -143,7 +143,7 @@ function init(){
 						var roughnessMipmapper = new RoughnessMipmapper( renderer );
 
 						var loader = new GLTFLoader().setPath( 'models/' );
-						loader.load( 'SDmodel.glb', function ( gltf ) {
+						loader.load( 'basic.glb', function ( gltf ) {
 
 							gltf.scene.traverse( function ( child ) {
               
