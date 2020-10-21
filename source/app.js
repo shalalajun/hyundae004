@@ -143,10 +143,10 @@ function init(){
 						var roughnessMipmapper = new RoughnessMipmapper( renderer );
 
 						var loader = new GLTFLoader().setPath( 'models/' );
-						loader.load( 'basic.glb', function ( gltf ) {
+						loader.load( 'bird.glb', function ( gltf ) {
 
 							gltf.scene.traverse( function ( child ) {
-              
+               
                 
 								if ( child.isMesh ) {
                   child.material.metalness = 0.1;
